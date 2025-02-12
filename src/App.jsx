@@ -1,9 +1,6 @@
 import './App.css'
 import { Outlet, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import FirstPage from './pages/first-page'
-import SecondPage from './pages/second-page'
-import ThirdPage from './pages/third-page'
 
 function App() {
 

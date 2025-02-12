@@ -1,6 +1,4 @@
-import CenterBox from "../components/centerBox";
 import classes from './second-page.module.css';
-import dogImg from '../assets/dog.webp';
 import { Link } from "react-router";
 
 function SecondPage() {
@@ -10,9 +8,6 @@ function SecondPage() {
             <h1 className={`${classes.h1}`}> Will you be my Valentine this year? </h1>
 
             <div className={`${classes.boxDiv}`}>
-                {/* <div className={`${classes.boxDiv2}`}>
-                    <img src={dogImg} alt="dog" className={`${classes.heartImg}`}/>
-                </div> */}
                 <div className={`${classes.boxDiv1}`}>
                     <Link to="/Third" className={`${classes.buttonClass1}`}>
                         YES!

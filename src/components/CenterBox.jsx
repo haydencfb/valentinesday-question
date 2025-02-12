@@ -1,6 +1,6 @@
 import classes from './CenterBox.module.css';
 import heartImg from '../assets/heart.webp';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function CenterBox() {
 
