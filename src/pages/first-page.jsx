@@ -1,4 +1,4 @@
-import CenterBox from "../components/centerBox";
+import CenterBox from "../components/CenterBox.jsx";
 import classes from './first-page.module.css';
 
 function FirstPage() {
