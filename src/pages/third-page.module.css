@@ -24,21 +24,15 @@
 }
 
 .buttonClass1 {
-    background-color: #00FF00;
     justify-content: start;
-    /* align-items: start; */
-    border-radius: 10px;
-    width: 200px;
-    box-shadow: 0px 0px 15px #00FF00;
+    color: #00FF00;
+    text-shadow: 0px 0px 15px #00FF00;
+    font-size: 40px;
 }
 
-.buttonClass2 {
-    background-color: red;
-    justify-content: start;
-    /* align-items: end; */
-    border-radius: 10px;
-    width: 200px;
-    box-shadow: 0px 0px 15px red;
+.buttonClass1:hover {
+    color: darkgreen;
+    text-shadow: 0px 0px 15px darkgreen;
 }
 
 .heartImg {

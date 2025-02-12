@@ -14,16 +14,19 @@
 }
 
 .buttonClass {
-    background-color: #FFAFE7;
+    color: #FFAFE7;
     justify-content: start;
-    border-radius: 10px;
-    width: 200px;
-    box-shadow: 0px 0px 15px #FFAFE7;
+    text-shadow: 0px 0px 15px #FFAFE7;
+    font-size: 40px;
+}
+.buttonClass:hover {
+    color: darkmagenta;
+    justify-content: start;
+    text-shadow: 0px 0px 15px darkmagenta;
 }
 
 .heartImg {
     width: 400px;
     height: 400px;
     justify-content: end;
-    
 }

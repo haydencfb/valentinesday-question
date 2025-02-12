@@ -1,5 +1,6 @@
 import classes from './CenterBox.module.css';
 import heartImg from '../assets/heart.webp';
+import { Link, NavLink } from 'react-router-dom';
 
 function CenterBox() {
 
@@ -7,9 +8,9 @@ function CenterBox() {
         <>
             <div className={`${classes.boxDiv}`}>
                 <div className={`${classes.boxDiv1}`}>
-                    <button className={`${classes.buttonClass}`}>
+                    <Link to="/Second" className={`${classes.buttonClass}`}>
                         Click Me!
-                    </button>
+                    </Link>
                 </div>
                 <div className={`${classes.boxDiv2}`}>
                     <img src={heartImg} alt="heart" className={`${classes.heartImg}`}/>
